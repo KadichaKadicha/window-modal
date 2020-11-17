@@ -1,0 +1,54 @@
+body{
+    background: antiquewhite;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.diva{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.windowModal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    padding: 20px;
+    transform: translate(50%, 50%);
+}
+
+*{
+    box-sizing: border-box;
+}
+.modal-content{
+    background: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+
+}
+.alert{
+    color: #070707;
+
+    font-size: 20px;
+    padding: 50px;
+}
+.myBtn{
+    padding: 10px 60px;
+    background: #947367;
+    color:white;
+    font-size: 18px;
+}
+.none{
+    display: none;
+}
+.alert{
+    display: flex;
+    align-items: center;
+}

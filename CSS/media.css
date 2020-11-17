@@ -1,0 +1,29 @@
+@media(max-width: 480px){
+
+    .myBtn{
+        padding: 3px 30px;
+        background: #947367;
+        color:white;
+        font-size: 10px;
+    }
+    .windowModal{
+
+        z-index: 1;
+        padding: 0 ;
+
+    }
+    .diva{
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .alert{
+        color: #070707;
+        padding:40px 20px 10px ;
+
+    }
+    .words{
+        font-size: 7px;
+    }
+}
